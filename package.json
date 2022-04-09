@@ -1,0 +1,25 @@
+{
+  "name": "restcalculator",
+  "version": "1.0.0",
+  "description": "REST Calculator",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "prod" : "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AlsoNeDonil/RESTCalculator.git"
+  },
+  "author": "AlsoNeDonil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlsoNeDonil/RESTCalculator/issues"
+  },
+  "homepage": "https://github.com/AlsoNeDonil/RESTCalculator#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
